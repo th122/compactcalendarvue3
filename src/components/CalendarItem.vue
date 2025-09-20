@@ -1,6 +1,7 @@
 <template>
   <ul class="mondayfirst">
     <WeekHeader :week="weeks[0]" />
+    <li />
     <WeekItem
       v-for="week in weeks"
       :key="week.id"

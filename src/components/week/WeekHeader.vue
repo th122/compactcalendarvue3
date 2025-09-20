@@ -4,7 +4,6 @@
   <li v-for="day in week" :key="day.id" class="header hday">
     <span>{{ day.toLocaleDateString(undefined, { weekday: "narrow" }) }}</span>
   </li>
-  <li />
 </template>
 <script>
 export default {
